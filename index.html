@@ -5,13 +5,13 @@
 </head>
 <body>
 	<form>
-		<input type="number" name="temp">
-		<input type="radio" name="farenheit">
-		<input type="radio" name="celcius">
-		<p id="tempOutput"></p>
+		<label for="temp">Temperature: <input type="number" name="temp"></label>
+		<label for="farenheit"><input type="radio" name="farenheit">&#8457;</label>
+		<label for="celcius"><input type="radio" name="celcius">&#8451;</label>
 		<input type="submit" name="subButton">
 		<input type="button" name="clearButton">
 	</form>
+	<p id="tempOutput"></p>
 	<script type="text/javascript" src="converter.js"></script>
 </body>
 </html>
