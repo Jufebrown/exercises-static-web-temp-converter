@@ -1,3 +1,6 @@
+
+
+
 function toCelsius () {
 
 }
@@ -17,3 +20,10 @@ function determineConverter (clickEvent) {
 
 // Assign a function to be executed when the button is clicked
 button.addEventListener("click", determineConverter);
+
+// clear input field with clear button
+var clearButton = document.getElementById("clear");
+function clearInput () {
+	document.getElementById("tempNum").value = "";
+}
+clearButton.addEventListener("click", clearInput())
