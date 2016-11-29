@@ -6,10 +6,10 @@
 <body>
 	<form>
 		<label for="temp">Temperature: <input type="number" name="temp"></label>
-		<label for="farenheit"><input type="radio" name="farenheit">&#8457;</label>
-		<label for="celcius"><input type="radio" name="celcius">&#8451;</label>
+		<label for="farenheit"><input type="radio" name="tempScale" value="farenheit">&#8457;</label>
+		<label for="celcius"><input type="radio" name="tempScale" value="celcius">&#8451;</label><br>
 		<input type="submit" name="subButton">
-		<input type="button" name="clearButton">
+		<button name="clear">Clear Input</button>
 	</form>
 	<p id="tempOutput"></p>
 	<script type="text/javascript" src="converter.js"></script>
