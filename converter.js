@@ -8,7 +8,7 @@ document.getElementById("fahrenheit").checked
 function outputText () {
 	document.getElementById("tempOutput").innerHTML = convertedTemp + unit;
 	colorText();
-} 
+}
 
 function toCelsius (temp) {
 	convertedTemp = ((temp - 32) * (5/9));
@@ -62,8 +62,8 @@ button.addEventListener("click", determineConverter);
 
 // clear input field with clear button
 var clearButton = document.getElementById("clear");
+
 function clearInput () {
 	document.getElementById("tempNum").value = "";
 }
 clearButton.addEventListener("click", clearInput);
-
