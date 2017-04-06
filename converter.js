@@ -8,8 +8,9 @@ let unit = "";
 
 document.getElementById("fahrenheit").checked
 
-function outputText () {
-	document.getElementById("tempOutput").innerHTML = convertedTemp + unit;
+//function that sets output text
+const outputText = () => {
+	document.querySelector("#tempOutput").innerHTML = convertedTemp + unit;
 	colorText();
 }
 
