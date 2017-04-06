@@ -6,10 +6,6 @@ let fUnit = " &#8457;";
 let cUnit = " &#8451;";
 let unit = "";
 
-var convertedTemp = 0;
-var fUnit = " &#8457;";
-var cUnit = " &#8451;";
-var unit = "";
 document.getElementById("fahrenheit").checked
 
 function outputText () {
