@@ -14,7 +14,8 @@ const outputText = () => {
 	colorText();
 }
 
-function toCelsius (temp) {
+//converts to C
+const toCelsius = (temp) => {
 	convertedTemp = ((temp - 32) * (5/9));
 	unit = cUnit;
 	outputText();
