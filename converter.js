@@ -1,3 +1,10 @@
+`use strict`
+
+//initializes variables
+let convertedTemp = 0;
+let fUnit = " &#8457;";
+let cUnit = " &#8451;";
+let unit = "";
 
 var convertedTemp = 0;
 var fUnit = " &#8457;";
